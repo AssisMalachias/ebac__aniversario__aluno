@@ -1,8 +1,20 @@
 {
     "png":{
-        "quakity":75
+        "compressionLevel":9,
+        "quality":85,
+        "progressive": true
     },
      "jpeg":{
-        "quakity":75
+        "compressionLevel":9,
+        "quality":85,
+        "progressive":true
+    },
+    "webp":{
+        "compressionLevel":9,
+        "quality":85,
+        "progressive":true
+    },
+    "avif":{
+        "quality":50
     }
 }

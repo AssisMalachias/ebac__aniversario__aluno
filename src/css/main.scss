@@ -1,0 +1,27 @@
+@use '_hero';
+@use '_variable'as v;
+
+@font-face {
+    font-family:'OpenSans';
+    src:url('../../assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf')format('truetype');
+    font-weight:100 900; /*variável */
+    font-style:normal;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body {
+    height:100%;
+    font-family:OpenSans,sans-serif;
+    color:v.$corFundoWhile;
+}
+
+.container {
+    width:100%;
+    max-width:475px;
+    margin:0 auto;
+}
