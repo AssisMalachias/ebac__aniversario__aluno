@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/css/main.scss src/js/main.js",
-    "build": "parcel build src/index.html src/css/main.scss src/js/main.js --dist-dir dist build --public-url ./",
+    "build": "parcel build src/index.html src/css/main.scss src/js/main.js --dist-dir dist ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
