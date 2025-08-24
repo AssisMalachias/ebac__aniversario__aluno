@@ -1,0 +1,52 @@
+@use '_variable'as v;
+
+.event {
+    padding:80px 0;
+
+    &--gradient--details{
+        background-image:linear-gradient(v.$colorRed,v.$colorBlue);
+    }
+
+    &--gradient--times{
+        background-image:linear-gradient(v.$colorBlue,v.$colorRed,);
+    }
+
+    &--gradient--venue{
+        background-image:linear-gradient(v.$colorRed,v.$colorRon);
+    }
+
+      &--gradient--maps{
+        background-image:linear-gradient(v.$colorRon,v.$colorRed);
+    }
+
+
+    
+    .container-detali {
+        display:flex;
+        justify-content: space-between;
+    }
+    &__detali__image {
+        max-width:220px;
+        height:273px;
+        border-radius:10px;
+    }
+    &__detali {
+        &__title {
+            font-size:45px;
+            font-weight:bold;
+            margin-bottom:20px;
+            position: relative;
+        }
+    }
+    &__detali__paragraph{
+            font-size:25px;
+            font-weight:400;
+            position: relative;
+            left:25px;
+    }
+}
+ .event--image-left {
+      .container-detali{
+        flex-direction:row-reverse;
+      }   
+    }
